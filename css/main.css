@@ -1,0 +1,33 @@
+.tank {
+	position: relative;
+	top: -680px;
+	cursor: pointer;
+}
+
+.over {
+    position:absolute;
+    z-index:100;
+	max-width: 1300px;  
+}
+
+.under {
+	max-width: 1300px; 
+    position:absolute;
+    z-index:2;
+}
+.card {
+	z-index: 3;
+	margin: 20px;
+	opacity: .6;
+}
+
+li span {
+	font-weight: bold;
+}
+
+tr td:nth-of-type(2) {
+	cursor: pointer;
+}
+table {
+	margin-top: 20px;
+}
